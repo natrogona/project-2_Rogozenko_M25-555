@@ -1,0 +1,10 @@
+.venv
+dist
+__pycache__
+*.pyc
+.pytest_cache
+*.egg-info
+db_meta.json
+data/
+.ruff_cache
+.idea

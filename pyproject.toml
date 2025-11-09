@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "primitive-db"
+version = "0.1.0"
+description = "Primitive database project"
+authors = ["Student"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+prettytable = "^3.16.0"
+
+[tool.poetry.scripts]
+project = "src.primitive_db.main:main"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.14.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
